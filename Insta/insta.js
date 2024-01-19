@@ -5,11 +5,11 @@ const bodyParser = require("body-parser");
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-const fbPageId = 103034802885767;
-const client_id = 605462118403346;
-client_secret = "4d02d34ed1ff139be390e04dd917c3cf";
+const fbPageId = "Your_FbPageId";
+const client_id = "Your_ClientId";
+client_secret = "Your_Client_Secret";
 long_lived_token =
-  "EAAImqiJZBDRIBO4TbHxSCCZCRjid1XiLmlF5PL9ZAp4MZCeZBmeglEGfNEmAncCCMIdEK4bGjWKYqDVfZAEl58C9j2iWfYTxnJ172HWChJ1CG7MxtgQZALZAY52CZBcRLbrqzZBnoQrDGKfcWwwfSwPhyX6RVbbr2EEKrWtIZBM4VQj7EAfcZAxBRuRuNgGae49CYXhu";
+  "Your_Long_Lived_Token";
 
 imgurlArr = [
   {
