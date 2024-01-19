@@ -1,0 +1,245 @@
+{
+	"info": {
+		"_postman_id": "d9e4d361-d8de-4f16-99fe-c29a82e741f7",
+		"name": "insta",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getInstaIdname",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://graph.facebook.com/v17.0/me?fields=id%2Cname&access_token=EAAImqiJZBDRIBO5DlVucFol7L0Mv9GoZAp0OQrKyXt6B4AHtIbjBZCIlZCw8KOLZCEZBB6LtwZBrmOlhtsOrIUMX8UYOrjk1AWJbW4agq7LpBKtQq5CBIMQC8MPPSkPbZC5T3wf1hxMIdgSsv2oxJVTlc8d4hAq1pYOXkXkiEMuSFBNwW4pJZCtZCNKjAhx4C69FZBghaiDZBMxag81Q40rNhLoML1kZABQZDZD",
+					"protocol": "https",
+					"host": [
+						"graph",
+						"facebook",
+						"com"
+					],
+					"path": [
+						"v17.0",
+						"me"
+					],
+					"query": [
+						{
+							"key": "fields",
+							"value": "id%2Cname"
+						},
+						{
+							"key": "access_token",
+							"value": "EAAImqiJZBDRIBO5DlVucFol7L0Mv9GoZAp0OQrKyXt6B4AHtIbjBZCIlZCw8KOLZCEZBB6LtwZBrmOlhtsOrIUMX8UYOrjk1AWJbW4agq7LpBKtQq5CBIMQC8MPPSkPbZC5T3wf1hxMIdgSsv2oxJVTlc8d4hAq1pYOXkXkiEMuSFBNwW4pJZCtZCNKjAhx4C69FZBghaiDZBMxag81Q40rNhLoML1kZABQZDZD"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getInstaBusinessAccountId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://graph.facebook.com/v17.0/103034802885767?fields=instagram_business_account&access_token=EAAImqiJZBDRIBOy03ZA0PDu8NS7ivW1BuS8GckEBTuoJjjw1z6uvVDTjSsRVaIOcYno8ZC7fB47BlPeRICv4so0qX9QXkCqZCaYIcm4e0xardYTItSuFnRyqDf4T706XyLPZBAj1ZC7pKdyUtT9fAtfgkKCUXlDrsqu98mAex6olb9RLeS360rJrOP1ssEvE06JhfuQfJJvHGMfMogdnwMtW1OILb0APkQZA4sZD",
+					"protocol": "https",
+					"host": [
+						"graph",
+						"facebook",
+						"com"
+					],
+					"path": [
+						"v17.0",
+						"103034802885767"
+					],
+					"query": [
+						{
+							"key": "fields",
+							"value": "instagram_business_account"
+						},
+						{
+							"key": "access_token",
+							"value": "EAAImqiJZBDRIBOy03ZA0PDu8NS7ivW1BuS8GckEBTuoJjjw1z6uvVDTjSsRVaIOcYno8ZC7fB47BlPeRICv4so0qX9QXkCqZCaYIcm4e0xardYTItSuFnRyqDf4T706XyLPZBAj1ZC7pKdyUtT9fAtfgkKCUXlDrsqu98mAex6olb9RLeS360rJrOP1ssEvE06JhfuQfJJvHGMfMogdnwMtW1OILb0APkQZA4sZD"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getInstaPosts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://graph.facebook.com/v17.0/17841460808580717/media?access_token=EAAImqiJZBDRIBOxZAbCvZB44ZBrseFNs9UEyZAYgjlSv2jClpZCbpfCuBKZByrmhfGWxeV1lI1cwoo3V8DhrqnPQ5vvryQjlZBBdHpz0yjPrfIasNrmcBptsnIirOmKAQs3qxJg389rXzO282MJhNWzF41JvI1rcx6PiTzVOaHuH1AIyidA7nWvq3L1sDgfsN1fGxr0jIZCbcXTexivz1lggFYEIpxzV1pQ7GU4AZD",
+					"protocol": "https",
+					"host": [
+						"graph",
+						"facebook",
+						"com"
+					],
+					"path": [
+						"v17.0",
+						"17841460808580717",
+						"media"
+					],
+					"query": [
+						{
+							"key": "access_token",
+							"value": "EAAImqiJZBDRIBOxZAbCvZB44ZBrseFNs9UEyZAYgjlSv2jClpZCbpfCuBKZByrmhfGWxeV1lI1cwoo3V8DhrqnPQ5vvryQjlZBBdHpz0yjPrfIasNrmcBptsnIirOmKAQs3qxJg389rXzO282MJhNWzF41JvI1rcx6PiTzVOaHuH1AIyidA7nWvq3L1sDgfsN1fGxr0jIZCbcXTexivz1lggFYEIpxzV1pQ7GU4AZD"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createcontainerandgetcontainerId",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://graph.facebook.com/v17.0/17841460808580717/media?image_url=https%3A%2F%2Fwww.shutterstock.com%2Fshutterstock%2Fphotos%2F668593321%2Fdisplay_1500%2Fstock-photo-large-beautiful-drops-of-transparent-rain-water-on-a-green-leaf-macro-drops-of-dew-in-the-morning-668593321.jpg&caption=&access_token=EAAImqiJZBDRIBOwPU0doueOxbuv7m67yiYTEWxsPbcktYbzrjTSYcUdUdQG9aJf9UnEEP3V2WsjmkLZCIbVzp0ZALsN2ZCiS9dKh4DzeucaF1HUBCYUcLJCTR8blimPCyEEUgCCHTYWwHW2xbVW3bWZBUn5aUVbWaX6dkawymkWQETwtixyIVHPFdj3J3McfiJFMh4LzgNTcbtYJgOxbIs7WHbClyVeZB4Sa4ZD#BronzFonz",
+					"protocol": "https",
+					"host": [
+						"graph",
+						"facebook",
+						"com"
+					],
+					"path": [
+						"v17.0",
+						"17841460808580717",
+						"media"
+					],
+					"query": [
+						{
+							"key": "image_url",
+							"value": "https%3A%2F%2Fwww.shutterstock.com%2Fshutterstock%2Fphotos%2F668593321%2Fdisplay_1500%2Fstock-photo-large-beautiful-drops-of-transparent-rain-water-on-a-green-leaf-macro-drops-of-dew-in-the-morning-668593321.jpg"
+						},
+						{
+							"key": "caption",
+							"value": ""
+						},
+						{
+							"key": "access_token",
+							"value": "EAAImqiJZBDRIBOwPU0doueOxbuv7m67yiYTEWxsPbcktYbzrjTSYcUdUdQG9aJf9UnEEP3V2WsjmkLZCIbVzp0ZALsN2ZCiS9dKh4DzeucaF1HUBCYUcLJCTR8blimPCyEEUgCCHTYWwHW2xbVW3bWZBUn5aUVbWaX6dkawymkWQETwtixyIVHPFdj3J3McfiJFMh4LzgNTcbtYJgOxbIs7WHbClyVeZB4Sa4ZD"
+						}
+					],
+					"hash": "BronzFonz"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "uploadPost",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://graph.facebook.com/v17.0/17841460808580717/media_publish?creation_id=18225435355241037&access_token=EAAImqiJZBDRIBO88bP4qpL3v5YsZCgW0AtsB6DpAWyAFevsUqJZBVTTfS8pZB4q9o1Vvt9t7xAVRsqeRJYZAH3NxLBdcC8qgcFY54j6IxZAa2dTRnxdPZAZBYlVIaiCtmAWMyeb5t25NZC0M0d3CZCAR7ZC9MwtzqR7qo9BeCPKWk2SntlEyfzwhY7GZCzV6KJbTrd43eG6YJwE7ZBEI85SZAnkbVkwsZCw0ZB8nXVNusuHs",
+					"protocol": "https",
+					"host": [
+						"graph",
+						"facebook",
+						"com"
+					],
+					"path": [
+						"v17.0",
+						"17841460808580717",
+						"media_publish"
+					],
+					"query": [
+						{
+							"key": "creation_id",
+							"value": "18225435355241037"
+						},
+						{
+							"key": "access_token",
+							"value": "EAAImqiJZBDRIBO88bP4qpL3v5YsZCgW0AtsB6DpAWyAFevsUqJZBVTTfS8pZB4q9o1Vvt9t7xAVRsqeRJYZAH3NxLBdcC8qgcFY54j6IxZAa2dTRnxdPZAZBYlVIaiCtmAWMyeb5t25NZC0M0d3CZCAR7ZC9MwtzqR7qo9BeCPKWk2SntlEyfzwhY7GZCzV6KJbTrd43eG6YJwE7ZBEI85SZAnkbVkwsZCw0ZB8nXVNusuHs"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "uploadStory",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://graph.facebook.com/v17.0/17841460808580717/media?image_url=https://image.shutterstock.com/image-photo/mountains-during-sunset-beautiful-natural-260nw-407021107.jpg&media_type=STORIES&caption=&access_token=EAAImqiJZBDRIBOwPU0doueOxbuv7m67yiYTEWxsPbcktYbzrjTSYcUdUdQG9aJf9UnEEP3V2WsjmkLZCIbVzp0ZALsN2ZCiS9dKh4DzeucaF1HUBCYUcLJCTR8blimPCyEEUgCCHTYWwHW2xbVW3bWZBUn5aUVbWaX6dkawymkWQETwtixyIVHPFdj3J3McfiJFMh4LzgNTcbtYJgOxbIs7WHbClyVeZB4Sa4ZD#BronzFonz",
+					"protocol": "https",
+					"host": [
+						"graph",
+						"facebook",
+						"com"
+					],
+					"path": [
+						"v17.0",
+						"17841460808580717",
+						"media"
+					],
+					"query": [
+						{
+							"key": "image_url",
+							"value": "https://image.shutterstock.com/image-photo/mountains-during-sunset-beautiful-natural-260nw-407021107.jpg"
+						},
+						{
+							"key": "media_type",
+							"value": "STORIES"
+						},
+						{
+							"key": "caption",
+							"value": ""
+						},
+						{
+							"key": "access_token",
+							"value": "EAAImqiJZBDRIBOwPU0doueOxbuv7m67yiYTEWxsPbcktYbzrjTSYcUdUdQG9aJf9UnEEP3V2WsjmkLZCIbVzp0ZALsN2ZCiS9dKh4DzeucaF1HUBCYUcLJCTR8blimPCyEEUgCCHTYWwHW2xbVW3bWZBUn5aUVbWaX6dkawymkWQETwtixyIVHPFdj3J3McfiJFMh4LzgNTcbtYJgOxbIs7WHbClyVeZB4Sa4ZD"
+						}
+					],
+					"hash": "BronzFonz"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "uploadVideoStory",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://graph.facebook.com/v17.0/17841460808580717/media?video_url=https://joy1.videvo.net/videvo_files/video/free/2014-12/large_watermarked/Raindrops_Videvo_preview.mp4&media_type=STORIES&access_token=EAAImqiJZBDRIBO3b3lZBZAqyviLkamMsdYNmtpIjOVVLA8DpDs1rCZByfEZBYtFnjXCu4j9rskZB5kNuTnHet1ynUIRqZCrD3AnTRgZBaA3GevbuvcMl7R2F041H6X0NSZC40m6XZBDdGNdYDKvJHFfmcnae9eH9SfBBOydGwen7ZA7RQXOEigAb0uZC4ZBkA6NkWaVX1WhN2DbmtKuRRE4ixn0ZByEyzO6AZDZD",
+					"protocol": "https",
+					"host": [
+						"graph",
+						"facebook",
+						"com"
+					],
+					"path": [
+						"v17.0",
+						"17841460808580717",
+						"media"
+					],
+					"query": [
+						{
+							"key": "video_url",
+							"value": "https://joy1.videvo.net/videvo_files/video/free/2014-12/large_watermarked/Raindrops_Videvo_preview.mp4"
+						},
+						{
+							"key": "media_type",
+							"value": "STORIES"
+						},
+						{
+							"key": "access_token",
+							"value": "EAAImqiJZBDRIBO3b3lZBZAqyviLkamMsdYNmtpIjOVVLA8DpDs1rCZByfEZBYtFnjXCu4j9rskZB5kNuTnHet1ynUIRqZCrD3AnTRgZBaA3GevbuvcMl7R2F041H6X0NSZC40m6XZBDdGNdYDKvJHFfmcnae9eH9SfBBOydGwen7ZA7RQXOEigAb0uZC4ZBkA6NkWaVX1WhN2DbmtKuRRE4ixn0ZByEyzO6AZDZD"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
